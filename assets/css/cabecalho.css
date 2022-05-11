@@ -1,0 +1,26 @@
+.cabecalho {
+    background: whitesmoke;
+    padding: .5rem 2rem;
+    grid-area: "cabecalho";
+
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    display: flex;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.menu__link {
+    font-size: 1.2rem;
+    color: #333;
+    padding: .5rem 1rem;
+}
+
+.menu__link:hover, .menu__link.ativo {
+    border-bottom: 2px solid #333;
+}
+
+

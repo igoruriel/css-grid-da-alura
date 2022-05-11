@@ -1,0 +1,21 @@
+.app {
+    display: grid;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+.conteudo {
+    background: whitesmoke;
+    grid-area: "conteudo";
+    padding: 0 2rem;
+}
+
+.rodape {
+    background: #0099ff;
+    grid-area: "rodape";
+    padding: 1rem;
+}
